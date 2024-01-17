@@ -9,8 +9,10 @@ function Body() {
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is some Text</p>
 
-                        <div className='container'>
-                            
+                        <div className='container w-100'>
+                            <select className='m-2 h-100 w-100 bg-success'> 
+                                
+                            </select>
 
                         </div>
                         
