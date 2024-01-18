@@ -1,6 +1,6 @@
 // --------------Requires----------
 require('dotenv').config();
-//require('./config/database')
+require('./config/database')
 const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
@@ -15,7 +15,7 @@ const app = express();
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'build')));
-//app.use(require('./config/checkToken'));
+app.use(require('./config/checkToken'));
 
 
 
