@@ -1,13 +1,14 @@
 import React from 'react'
 
+
 function Card() {
     return (
         <div>
             <div class="card mt-3" style={{width: "18rem", maxHeight:'360px'}}>
-                <img src="..." class="card-img-top" alt="..."/>
+                <img src="/paneer-Bimg.jpg" class="card-img-top" alt="..."/>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is some Text</p>
+                        <h5 class="card-title">Paneer Biryani</h5>
+                        <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
 
                         <div className='container w-100'>
                             <select className='m-2 h-100 bg-success rounded'> 

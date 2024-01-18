@@ -1,6 +1,6 @@
 import './App.css';
-import Home from './screens/Home'
-import Login from './screens/Login'
+import Home from './screens/HomePage/Home.js'
+import Login from './screens/Login/Login.js'
 import {
   BrowserRouter as Router,
   Routes,
@@ -14,14 +14,14 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
 function App() {
   return (
     <>
-     <Router>
-      <div>
-        <Routes>
-          <Route exact path='/' element={<Home/>}/>
-          <Route exact path='/login' element={<Login/>}/>
-          
-        </Routes>
-      </div>
+      <Router>
+        <div>
+          <Routes>
+            <Route exact path='/' element={<Home />} />
+            <Route exact path='/login' element={<Login />} />
+
+          </Routes>
+        </div>
       </Router>
     </>
   );
