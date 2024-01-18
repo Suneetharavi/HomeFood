@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './screens/HomePage/Home.js'
 import Login from './screens/Login/Login.js'
+import SignUp from './screens/SignUp/SignUp.js'
 import {
   BrowserRouter as Router,
   Routes,
@@ -19,7 +20,7 @@ function App() {
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route exact path='/login' element={<Login />} />
-
+            <Route exact path='/SignUp' element={<SignUp />} />
           </Routes>
         </div>
       </Router>
