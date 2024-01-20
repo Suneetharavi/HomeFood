@@ -10,6 +10,7 @@ import MenuList from "../../components/MenuList/MenuList";
 import CategoryList from "../../components/CategoryList/CategoryList";
 import OrderDetail from "../../components/OrderDetails/OrderDetail";
 import UserLogOut from "../../components/UserLogOut/UserLogOut";
+import newStyles from '../NewOrderPage/NewStyles.css'
 
 
 function NewOrderPage({ user, setUser }) {
@@ -65,20 +66,18 @@ function NewOrderPage({ user, setUser }) {
     <>
     <Navbar/>
    
-   <div className={styles.categoriesClass}>
-         <aside>
+   <div className= 'categoriesClass'>
+       {/* <aside> */}
              {/* <Logo/> */}
             <CategoryList
               categories={categoriesRef.current}
               cart={setCart}
               setActiveCat={setActiveCat}
             />
-            <Link to="/orders" className="button btn-sm">
-              PREVIOUS ORDERS
-            </Link>
-            <UserLogOut user={user} setUser={setUser} />
-          </aside>
     </div>
+            
+          {/* </aside> */}
+    
           <main className={styles.NewOrderPage}>
           <MenuList
             menuItems={menuItems.filter((item) => item.category.name === activeCat)}
@@ -92,6 +91,13 @@ function NewOrderPage({ user, setUser }) {
           />
         
         </main>
+        <div>
+            <Link to="/orders" className="button btn-sm">
+                  PREVIOUS ORDERS
+            </Link>
+
+            <UserLogOut user={user} setUser={setUser} />
+        </div>
     </>
   )
 }
