@@ -77,16 +77,24 @@ function Card() {
                 </div>
 
                 <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
-                    <img src="/chickenpakoda.jpg" class="card-img-top" alt="..." height='200px' />
+                    <img src="/vegManch.jpg" class="card-img-top" alt="..." height='200px' />
                     <div class="card-body">
                         <h5 class="card-title">Veg Manchuria</h5>
                         <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
                 <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
-                    <img src="/chickenpakoda.jpg" class="card-img-top" alt="..." height='200px' />
+                    <img src="/garlicFriedChicken.avif" class="card-img-top" alt="..." height='200px' />
                     <div class="card-body">
                         <h5 class="card-title">Garlic Chicken Fry</h5>
+                        <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
+                    </div>
+                </div>
+
+                <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
+                    <img src="/OnionPakoda.jpg" class="card-img-top" alt="..." height='200px' />
+                    <div class="card-body">
+                        <h5 class="card-title">Onion Pakoda</h5>
                         <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
