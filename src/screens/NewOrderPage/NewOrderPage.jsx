@@ -65,7 +65,7 @@ function NewOrderPage({ user, setUser }) {
     <>
     <Navbar/>
    
-   <div>
+   <div className={styles.categoriesClass}>
          <aside>
              {/* <Logo/> */}
             <CategoryList
