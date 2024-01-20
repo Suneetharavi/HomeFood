@@ -68,6 +68,7 @@ orderSchema.methods.setItemQty = function(itemId, newQty) {
   const cart = this;
   // Find the line item in the cart for the menu item
   const lineItem = cart.lineItems.find(lineItem => lineItem.item._id.equals(itemId));
+  console.log('lineItem'+lineItem)
   if (lineItem && newQty <= 0) {
     // Calling deleteOne, removes itself from the cart.lineItems array
     lineItem.deleteOne();
@@ -79,4 +80,4 @@ orderSchema.methods.setItemQty = function(itemId, newQty) {
   return cart.save();
 };
 
-module.exports = mongoose.model('myOrder', orderSchema);
+module.exports = mongoose.model('Order', orderSchema);
