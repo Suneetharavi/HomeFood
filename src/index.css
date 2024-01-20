@@ -3,12 +3,9 @@
   object-fit: fill
  }
 
-
-
-
-
-
-
+ .breakFast{
+  display: flex;
+ }
 
 body {
   margin: 0;
