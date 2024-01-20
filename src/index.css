@@ -23,7 +23,7 @@ code {
 }
 
 .nav-link{
-  color: white !important;
+  color: rgb(222, 85, 85) !important;
 }
 #carousel{
   max-height: 500px;
@@ -38,7 +38,7 @@ code {
   --tan-4: #D3C1AE;
   --blue: #F67F00;
   --text-light: #968c84;
-  --text-dark: #615954;
+  --text-dark: #d7793f;
 }
 
 *, *:before, *:after {
@@ -52,7 +52,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(133, 142, 124);
+  background-color: rgb(223, 237, 209);
   padding: 2vmin;
   height: 100vh;
 }

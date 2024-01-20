@@ -10,7 +10,7 @@ function Card() {
                 
    
                 <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
-                    <img src="/chickenBimg.webp" class="card-img-top" alt="..." />
+                    <img src="/chickenBimg.webp" class="card-img-top" alt="..." height='200px' />
                     <div class="card-body">
                         <h5 class="card-title">Chicken Biryani</h5>
                         <p class="card-text">Chicken Biryani is a delicious Non-Vegeterian food with layered dish of Chicken, dum cooked with spices, herbs and basmati rice.</p>
@@ -18,7 +18,7 @@ function Card() {
                 </div>
 
                 <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
-                    <img src="/paneer-Bimg.jpg" class="card-img-top" alt="..." />
+                    <img src="/paneer-Bimg.jpg" class="card-img-top" alt="..." height='200px' />
                     <div class="card-body">
                         <h5 class="card-title">Paneer Biryani</h5>
                         <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
@@ -34,25 +34,25 @@ function Card() {
                 </div>
 
                 <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
-                    <img src="/paneer-Bimg.jpg" class="card-img-top" alt="..." />
+                    <img src="/fried-rice.jpg" class="card-img-top" alt="..." height='200px'/>
                     <div class="card-body">
-                        <h5 class="card-title">Paneer Biryani</h5>
+                        <h5 class="card-title">Fried Rice</h5>
                         <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
 
                 <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
-                    <img src="/paneer-Bimg.jpg" class="card-img-top" alt="..." />
+                    <img src="/Boneless-Chicken-Biryani.jpg" class="card-img-top" alt="..." height='200px'/>
                     <div class="card-body">
                         <h5 class="card-title">Alludus Spzl Dum Biryani</h5>
-                        <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
+                        <p class="card-text">Alludus Spzl Dum Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
 
                 <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
-                    <img src="/paneer-Bimg.jpg" class="card-img-top" alt="..." />
+                    <img src="/eggBimg.webp" class="card-img-top" alt="..." height='200px' />
                     <div class="card-body">
-                        <h5 class="card-title">Paneer Biryani</h5>
+                        <h5 class="card-title">Egg Biryani</h5>
                         <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ function Card() {
                     <img src="/Tandoori-Wings.webp" class="card-img-top" alt="..." height='200px'/>
                     <div class="card-body">
                         <h5 class="card-title">Tandoori Wings</h5>
-                        <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
+                        <p class="card-text">Tandoori Wings is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@ function Card() {
                     <img src="/chickenpakoda.jpg" class="card-img-top" alt="..." height='200px' />
                     <div class="card-body">
                         <h5 class="card-title">Melon Chicken pakoda</h5>
-                        <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
+                        <p class="card-text">Melon Chicken Pakoda is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
 
@@ -80,22 +80,22 @@ function Card() {
                     <img src="/vegManch.jpg" class="card-img-top" alt="..." height='200px' />
                     <div class="card-body">
                         <h5 class="card-title">Veg Manchuria</h5>
-                        <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
+                        <p class="card-text">Veg Manchuria is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
                 <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
                     <img src="/garlicFriedChicken.avif" class="card-img-top" alt="..." height='200px' />
                     <div class="card-body">
                         <h5 class="card-title">Garlic Chicken Fry</h5>
-                        <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
+                        <p class="card-text">Garlic Chicken Fry is a delicious Non-vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
 
                 <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
-                    <img src="/OnionPakoda.jpg" class="card-img-top" alt="..." height='200px' />
+                    <img src="/Onion-pakoda.jpg" class="card-img-top" alt="..." height='200px' />
                     <div class="card-body">
                         <h5 class="card-title">Onion Pakoda</h5>
-                        <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
+                        <p class="card-text">Onion Pakoda is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
 
@@ -103,7 +103,7 @@ function Card() {
                     <img src="/TandooriChickenCurry.jpg" class="card-img-top" alt="..." height='200px' />
                     <div class="card-body">
                         <h5 class="card-title">Tandoori Chicken Curry</h5>
-                        <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
+                        <p class="card-text">Tandoori Chicken Curry is a delicious Non-vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
             </div>               
@@ -116,7 +116,7 @@ function Card() {
                     <img src="/Dosa.webp" class="card-img-top" alt="..." height='200px'/>
                     <div class="card-body">
                         <h5 class="card-title">Dosa</h5>
-                        <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
+                        <p class="card-text">Dosa is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
 
@@ -124,17 +124,44 @@ function Card() {
                     <img src="/Poori.jpg" class="card-img-top" alt="..." height='200px' />
                     <div class="card-body">
                         <h5 class="card-title">Poori</h5>
-                        <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
+                        <p class="card-text">Poori is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
 
                 <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
-                    <img src="/Idly.jpg" class="card-img-top" alt="..." height='200px' />
+                    <img src="/idlyImg.jpg" class="card-img-top" alt="..." height='200px' />
                     <div class="card-body">
                         <h5 class="card-title">Idly</h5>
-                        <p class="card-text">Paneer Biryani is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
+                        <p class="card-text">Idly is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
                     </div>
                 </div>
+
+               
+
+                <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
+                    <img src="/vada.webp" class="card-img-top" alt="..." height='200px' />
+                    <div class="card-body">
+                        <h5 class="card-title">Vada</h5>
+                        <p class="card-text">Vada is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
+                    </div>
+                </div>
+
+                <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
+                    <img src="/uthapam.jpg" class="card-img-top" alt="..." height='200px' />
+                    <div class="card-body">
+                        <h5 class="card-title">Uthapam</h5>
+                        <p class="card-text">Uthapam is a delicious vegetarian layered dish of paneer, dum cooked with spices, herbs and basmati rice.</p>
+                    </div>
+                </div>
+
+                <div class="card mt-3" style={{ width: "18rem", maxHeight: '360px' }}>
+                    <img src="/BreakFastThali.jpg" class="card-img-top" alt="..." height='200px' />
+                    <div class="card-body">
+                        <h5 class="card-title">BreakFast Thali</h5>
+                        <p class="card-text">BreakFast includes one Idly,one Vada, one doas, upma, sweet.</p>
+                    </div>
+                </div>
+
             </div>               
             
             
