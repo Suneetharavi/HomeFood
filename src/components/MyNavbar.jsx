@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Navbar() {
+function Navbar({ user, setUser }) {
 
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-success possition-stickyr">
                 <div className="container-fluid">
-                    <div ><img className='AlluduLogo' src='LogoAlluduKitchen.png' alt='NoLogo'/></div>
+                    <div ><img className='AlluduLogo' src='/LogoAlluduKitchen.png' alt='NoLogo'/></div>
 
                     <div style={{marginLeft:'30%'}}><Link className="navbar-brand fs-1 " to="/"> Alludu's Kitchen 
                     <h5 style={{marginLeft:'13%'}}>Home Food Catering</h5></Link></div>
@@ -25,7 +25,8 @@ function Navbar() {
                         </ul> 
                         
                         <div className="d-flex">
-                            <button id='exitbutton' className="btn bg-white text-success mx-1" to="/*">LogOut</button>
+                            <a href='https://www.instagram.com/alludus_kitchen?igsh=MTVsOXg0azIzMjV1dA=='><button id='exitbutton' className="btn bg-white text-success mx-1">FollowUs</button></a>
+                            {/* <img src=''/><button id='exitbutton' className="btn bg-white text-success mx-1">ContactUs</button> */}
                             {/* <Link className="btn bg-white text-success mx-1" to="/SignUp">SignUp</Link> */}
                         </div>  
                     </div>

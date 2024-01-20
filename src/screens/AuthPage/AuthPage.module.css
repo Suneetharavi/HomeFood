@@ -32,6 +32,6 @@
   .AuthPage h3 {
     margin-top: 4vmin;
     text-align: center;
-    color: var(--text-light);
+    color: green;
     cursor: pointer;
   }

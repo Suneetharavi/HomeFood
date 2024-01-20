@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import * as itemsAPI from "../../utilities/items-api";
 import * as ordersAPI from "../../utilities/order-api";
 import styles from "./NewOrderPage.module.css";
+import Navbar from '../../components/MyNavbar';
 import { Link, useNavigate } from "react-router-dom";
 import Logo from "../../components/Logo/Logo";
 import MenuList from "../../components/MenuList/MenuList";
@@ -61,6 +62,8 @@ function NewOrderPage({ user, setUser }) {
 
 
   return (
+    <>
+    <Navbar/>
     <main className={styles.NewOrderPage}>
          <aside>
              <Logo/>
@@ -83,8 +86,9 @@ function NewOrderPage({ user, setUser }) {
             handleChangeQty={handleChangeQty}
             handleCheckout={handleCheckout}
           />
-          <div>New Order page</div>
+        
         </main>
+    </>
   )
 }
 

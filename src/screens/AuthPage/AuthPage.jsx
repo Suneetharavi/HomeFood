@@ -6,7 +6,7 @@ import SignUp from '../../components/SignUp/SignUp'
 import Carousel from '../../components/Carousel'
 import Home from '../HomePage/Home'
 import Logo from '../../components/Logo/Logo'
-import Navbar from '../../components/Navbar'
+import Navbar from '../../components/MyNavbar'
 
 function AuthPage({ user, setUser }) {
     const [showLogin, setShowLogin] = useState(true);
