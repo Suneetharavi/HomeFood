@@ -66,19 +66,20 @@ function NewOrderPage({ user, setUser }) {
     <>
     <Navbar/>
    
-   <div className= 'categoriesClass'>
-       {/* <aside> */}
+   <div className= 'categoriesClass'></div>
+   <main className={styles.NewOrderPage}>
+       <aside>
              {/* <Logo/> */}
             <CategoryList
               categories={categoriesRef.current}
               cart={setCart}
               setActiveCat={setActiveCat}
             />
-    </div>
+  
             
-          {/* </aside> */}
+      </aside>  
     
-          <main className={styles.NewOrderPage}>
+         
           <MenuList
             menuItems={menuItems.filter((item) => item.category.name === activeCat)}
             handleAddToOrder={handleAddToOrder}
@@ -89,9 +90,9 @@ function NewOrderPage({ user, setUser }) {
             handleChangeQty={handleChangeQty}
             handleCheckout={handleCheckout}
           />
-        
         </main>
-        <div>
+        
+        <div className='EndDiv'>
             <Link to="/orders" className="button btn-sm">
                   PREVIOUS ORDERS
             </Link>

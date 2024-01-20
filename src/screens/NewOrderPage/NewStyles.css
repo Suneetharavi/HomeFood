@@ -1,6 +1,15 @@
 .categoriesClass{
 
-  
+    display: flex;
+    flex-direction: row;
    
 
+  }
+
+  .EndDiv{
+    border: .2vmin solid green;
+    border-radius: 1vmin;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around;
   }
