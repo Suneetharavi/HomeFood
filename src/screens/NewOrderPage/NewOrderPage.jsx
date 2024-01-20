@@ -70,6 +70,7 @@ function NewOrderPage({ user, setUser }) {
    <main className={styles.NewOrderPage}>
        <aside>
              {/* <Logo/> */}
+             <h3>Categories</h3><hr/>
             <CategoryList
               categories={categoriesRef.current}
               cart={setCart}
@@ -90,15 +91,16 @@ function NewOrderPage({ user, setUser }) {
             handleChangeQty={handleChangeQty}
             handleCheckout={handleCheckout}
           />
-        </main>
-        
+       
+       </main>
         <div className='EndDiv'>
             <Link to="/orders" className="button btn-sm">
                   PREVIOUS ORDERS
             </Link>
 
             <UserLogOut user={user} setUser={setUser} />
-        </div>
+        </div> 
+     
     </>
   )
 }
