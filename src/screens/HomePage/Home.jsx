@@ -1,7 +1,6 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
 import Card from '../../components/Card/Card'
-import Carousel from '../../components/Carousel'
 
 function Home() {
   return (

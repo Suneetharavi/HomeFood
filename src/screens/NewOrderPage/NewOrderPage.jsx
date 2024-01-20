@@ -64,9 +64,10 @@ function NewOrderPage({ user, setUser }) {
   return (
     <>
     <Navbar/>
-    <main className={styles.NewOrderPage}>
+   
+   <div>
          <aside>
-             <Logo/>
+             {/* <Logo/> */}
             <CategoryList
               categories={categoriesRef.current}
               cart={setCart}
@@ -77,10 +78,13 @@ function NewOrderPage({ user, setUser }) {
             </Link>
             <UserLogOut user={user} setUser={setUser} />
           </aside>
+    </div>
+          <main className={styles.NewOrderPage}>
           <MenuList
             menuItems={menuItems.filter((item) => item.category.name === activeCat)}
             handleAddToOrder={handleAddToOrder}
           />
+
           <OrderDetail
             order={cart}
             handleChangeQty={handleChangeQty}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
+import ContactUs from '../../components/ConatctUs/ContactUs'
 import styles from './App.module.css';
 import { getUser } from '../../utilities/users-service';
 import AuthPage from '../AuthPage/AuthPage';
@@ -10,6 +11,9 @@ export default function App() {
   const [user, setUser] = useState(getUser());
   return (
     <main className={styles.App}>
+      <Routes>
+        <Route path='/ContactUs' element={<ContactUs/>}></Route>
+      </Routes>
       { user ?
         <>
           <Routes>
