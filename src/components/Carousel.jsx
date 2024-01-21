@@ -3,7 +3,7 @@ import React from 'react'
 function Carousel() {
     return (
         <>
-            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+            {/* <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item ">
                         <img src="../BreakFastThali.jpg" className="d-block w-100" alt="..." width='500px' />
@@ -23,7 +23,25 @@ function Carousel() {
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
-            </div>
+            </div> */}
+
+
+<div id="carouselExampleControls" class="carousel slide" data-coreui-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item ">
+      <img src="../BreakFastThali.jpg" class="d-block w-100" alt="..."/>
+
+    </div>
+    <div class="carousel-item active">
+      <img src="../thali3.jpg" class="d-block w-100" alt="..."/>
+
+    </div>
+    <div class="carousel-item">
+      <img src="../thali2.avif" class="d-block w-100" alt="..."/>
+
+    </div>
+  </div>
+</div>
     </>
     )
 }
