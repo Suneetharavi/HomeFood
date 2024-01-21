@@ -32,11 +32,13 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
                 {order.isPaid ?
                   <span className={styles.right}>TOTAL&nbsp;&nbsp;</span>
                   :
+                  <form>
                   <button
                     className="btn-sm"
                     onClick={handleCheckout}
                     disabled={!lineItems.length}
                   >CHECKOUT</button>
+                  </form>
                 }
                 <span>{order.totalQty}</span>
                 <span className={styles.right}>${order.orderTotal.toFixed(2)}</span>

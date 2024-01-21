@@ -11,98 +11,97 @@ import CategoryList from "../../components/CategoryList/CategoryList";
 import OrderDetail from "../../components/OrderDetails/OrderDetail";
 import UserLogOut from "../../components/UserLogOut/UserLogOut";
 import newStyles from '../NewOrderPage/NewStyles.css'
+import emailjs from 'emailjs-com';
 
 
 function NewOrderPage({ user, setUser }) {
 
-//     useEffect(function(){
-//     alert("HI HELLO")
-// },[])
-        const [menuItems, setMenuItems] = useState([]);
-        const [activeCat, setActiveCat] = useState("");
-        const [cart, setCart] = useState(null);
-        const categoriesRef = useRef([]);
-        const navigate = useNavigate();
+  //     useEffect(function(){
+  //     alert("HI HELLO")
+  // },[])
+  const [menuItems, setMenuItems] = useState([]);
+  const [activeCat, setActiveCat] = useState("");
+  const [cart, setCart] = useState(null);
+  const categoriesRef = useRef([]);
+  const navigate = useNavigate();
 
-        useEffect(function () {
-            async function getItems() {
-               
-              const items = await itemsAPI.getAll();
-            //   console.log("Hi Hello"+items)
-              categoriesRef.current = items.reduce((cats, item) => {
-                const cat = item.category.name;
-                // alert(cat);
-                return cats.includes(cat) ? cats : [...cats, cat];
-              }, []);
-              setMenuItems(items);
-              setActiveCat(categoriesRef.current[0]);
-            }
-            getItems();
+  useEffect(function () {
+        async function getItems() {
 
-            async function getCart() {
-              const cart = await ordersAPI.getCart();
-              setCart(cart);
-            }
-            getCart();
-          },[]);
-
-         async function handleAddToOrder(itemId) {
-         const updatedCart = await ordersAPI.addItemToCart(itemId);
-        setCart(updatedCart);
+          const items = await itemsAPI.getAll();
+          //   console.log("Hi Hello"+items)
+          categoriesRef.current = items.reduce((cats, item) => {
+            const cat = item.category.name;
+            // alert(cat);
+            return cats.includes(cat) ? cats : [...cats, cat];
+          }, []);
+          setMenuItems(items);
+          setActiveCat(categoriesRef.current[0]);
         }
+       getItems();
 
-        async function handleChangeQty(itemId, newQty) {
-            const updatedCart = await ordersAPI.setItemQtyInCart(itemId, newQty);
-            setCart(updatedCart);
+        async function getCart() {
+          const cart = await ordersAPI.getCart();
+          setCart(cart);
         }
+        getCart();
+  }, []);
 
-        async function handleCheckout() {
-                await ordersAPI.checkout();
-                navigate("/orders");
-              }
+  async function handleAddToOrder(itemId) {
+    const updatedCart = await ordersAPI.addItemToCart(itemId);
+    setCart(updatedCart);
+  }
+
+  async function handleChangeQty(itemId, newQty) {
+    const updatedCart = await ordersAPI.setItemQtyInCart(itemId, newQty);
+    setCart(updatedCart);
+  }
+
+  async function handleCheckout() {
+    await ordersAPI.checkout();
+    navigate('/orders');
+  }
+ 
+return (
+  <>
+    <Navbar />
+
+    <div className='categoriesClass'></div>
+    <main className={styles.NewOrderPage}>
+      <aside>
+        {/* <Logo/> */}
+        <h3>Categories</h3><hr />
+        <CategoryList
+          categories={categoriesRef.current}
+          cart={setCart}
+          setActiveCat={setActiveCat}
+        />
+      </aside>
 
 
-  return (
-    <>
-    <Navbar/>
-   
-   <div className= 'categoriesClass'></div>
-   <main className={styles.NewOrderPage}>
-       <aside>
-             {/* <Logo/> */}
-             <h3>Categories</h3><hr/>
-            <CategoryList
-              categories={categoriesRef.current}
-              cart={setCart}
-              setActiveCat={setActiveCat}
-            />
-  
-            
-      </aside>  
-    
-         
-          <MenuList
-            menuItems={menuItems.filter((item) => item.category.name === activeCat)}
-            handleAddToOrder={handleAddToOrder}
-          />
+      <MenuList
+        menuItems={menuItems.filter((item) => item.category.name === activeCat)}
+        handleAddToOrder={handleAddToOrder}
+      />
 
-          <OrderDetail
-            order={cart}
-            handleChangeQty={handleChangeQty}
-            handleCheckout={handleCheckout}
-          />
-       
-       </main>
-        <div className='EndDiv'>
-            <Link to="/orders" className="button btn-sm">
-                  PREVIOUS ORDERS
-            </Link>
+      <OrderDetail
+        order={cart}
+        handleChangeQty={handleChangeQty}
+        handleCheckout={handleCheckout}
+      />
 
-            <UserLogOut user={user} setUser={setUser} />
-        </div> 
-     
-    </>
-  )
+    </main>
+
+    <div className='EndDiv'>
+      <Link to="/orders" className="button btn-sm">
+        PREVIOUS ORDERS
+      </Link>
+
+      <UserLogOut user={user} setUser={setUser} />
+    </div>
+
+  </>
+)
 }
 
 export default NewOrderPage
