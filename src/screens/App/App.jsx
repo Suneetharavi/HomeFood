@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import ContactUs from '../../components/ConatctUs/ContactUs'
+import Register from '../../components/Register/Register'
 import styles from './App.module.css';
 import { getUser } from '../../utilities/users-service';
 import AuthPage from '../AuthPage/AuthPage';
@@ -13,6 +14,7 @@ export default function App() {
     <main className={styles.App}>
       <Routes>
         <Route path='/ContactUs' element={<ContactUs/>}></Route>
+        <Route path='/Register' element={<Register/>}></Route>
       </Routes>
       { user ?
         <>

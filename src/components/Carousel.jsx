@@ -12,7 +12,7 @@ function Carousel() {
                         <img src="https://source.unsplash.com/random/900×700/?apetizers" className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://source.unsplash.com/random/900×700/?burger" className="d-block w-100" alt="..." />
+                        <img src="https://source.unsplash.com/random/900×700/?food" className="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

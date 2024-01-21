@@ -28,6 +28,7 @@ function Navbar({ user, setUser }) {
                             <a href='https://www.instagram.com/alludus_kitchen?igsh=MTVsOXg0azIzMjV1dA=='><button id='exitbutton' className="btn bg-white text-success mx-1">FollowUs</button></a>
                             {/* <img src=''/><button id='exitbutton' className="btn bg-white text-success mx-1">ContactUs</button> */}
                             <Link  to="/contactUs" id='exitbutton' className="btn bg-white text-success mx-3" >contactUs</Link>
+                            <Link  to="/Register" id='exitbutton' className="btn bg-white text-success mx-3" >cRegister</Link>
                         </div>  
                     </div>
 
