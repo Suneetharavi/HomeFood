@@ -12,10 +12,10 @@ export default function App() {
   const [user, setUser] = useState(getUser());
   return (
     <main className={styles.App}>
-      <Routes>
+      {/* <Routes>
         <Route path='/ContactUs' element={<ContactUs/>}></Route>
         <Route path='/Register' element={<Register/>}></Route>
-      </Routes>
+      </Routes> */}
       { user ?
         <>
           <Routes>
@@ -24,12 +24,14 @@ export default function App() {
             <Route path="/orders" element={<OrderHistoryPage user={user} setUser={setUser} />} />
             {/* redirect to /orders/new if path in address bar hasn't matched a <Route> above */}
             <Route path="/*" element={<Navigate to="/orders/new" />} />
-            <Route path='orders/new/ContactUs' element={<ContactUs/>}></Route>
+            <Route path='/*/ContactUs' element={<ContactUs/>}></Route>
+            
           </Routes>
         </>
         :<>
         <Routes>
-        <Route path='orders/new/ContactUs' element={<ContactUs/>}></Route>
+        <Route path='/ContactUs' element={<ContactUs/>}></Route>
+        <Route path='/Register' element={<Register/>}></Route>
         </Routes>
         <AuthPage setUser={setUser} /></>
       }
