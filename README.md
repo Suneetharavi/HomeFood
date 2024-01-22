@@ -85,19 +85,20 @@ In the Email Send to the Registered Email.. in the body of the Email it has link
 _____________________________________________________
 
 1. Frontend - React Js
-2. Backend - NodeJS(ExpressJs)
+2. Backend - ExpressJs
 3. Database - MongoDB
 * React Js
 * React Router
 * React Hooks 
 * HTML, CSS, JavaScript
-* Express Js, NodeJS
+* NodeJS, EmailJs
+* JWT, bcrypt
 * MongoDB
 
 ###               Screenshots from the Application
 _______________________________________________________________________
 
-
+!
 
 
 ###                 Contact ME
