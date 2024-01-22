@@ -23,17 +23,19 @@ Set up MongoDb on your device and run.😊
 
 _____________________________________________
 
-* [Title](###WireFrame)
+* [Title](#alludus-kitchen-home-food-catering)
 
-* [WireFrame](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#wireframe)
+* [WireFrame](#wireframe)
 
-* [Technologies](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#technologies-used)
+* [Technologies](#)
 
-* [Screenshots](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#screenshots-from-the-application)
+* [Screenshots]
 
-* [Contact Me](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#contact-me)
+* [Contact Me]
 
-###                    WireFrame
+
+
+### WireFrame
 _____________________________________________
  
  # Home Page:

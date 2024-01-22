@@ -58,7 +58,20 @@ function NewOrderPage({ user, setUser }) {
   }
 
   async function handleCheckout() {
+    alert('Email send')
     await ordersAPI.checkout();
+        var templateparams = {
+          email:user.email
+      }
+      console.log('Email'+templateparams)
+    emailjs.send('service_7nqksw6', 'template_gtjp70j',templateparams, 'KqxfdcF4ZT9d7pi7D')
+    .then((result) => {
+         console.log(result.text);
+     }, (error) => {
+         console.log(error.text);
+     });
+
+     
     navigate('/orders');
   }
  

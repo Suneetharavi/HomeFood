@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './ContactUs.css'
 
 function ContactUs() {
   return (
