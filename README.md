@@ -98,19 +98,18 @@ _____________________________________________________
 ###               Screenshots from the Application
 _______________________________________________________________________
 
-![HOME PAGE](![Alt text](<Screenshot 2024-01-22 115013.png>))
+![HOME PAGE](![Alt text](<Screenshot 2024-01-22 115013.png>),![Alt text](<Screenshot 2024-01-22 160942.png>),![Alt text](<Screenshot 2024-01-22 160953.png>))
 
-![Home Page]()
 
-![Menu Card Page]()
+![Menu Card Page](![Alt text](<Screenshot 2024-01-22 160813.png>),)
 
-![FollowUs Page]()
+![FollowUs Page](![Alt text](<Screenshot 2024-01-22 160649.png>))
 
-![AboutUs Page]()
+![AboutUs Page](![Alt text](<Screenshot 2024-01-22 160731.png>))
 
-![Categories List]()
+![Categories List](![Alt text](<Screenshot 2024-01-22 160242.png>)![Alt text](<Screenshot 2024-01-22 160301.png>),)
 
-![OrderHistory]()
+![OrderHistory](![Alt text](<Screenshot 2024-01-22 160528.png>))
 
 
 ###                 Contact ME
