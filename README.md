@@ -8,7 +8,7 @@ In this project you can search the menu and select the quantity and order the fo
 ✨ Requirements
 _____________________________________________
 Any Operating System (ie. MacOS X, Linux, Windows)
-Any IDE with Flutter SDK installed (ie. Android Studio, VSCode, IntelliJ, etc)
+Any IDE (ie. Android Studio, VSCode, IntelliJ, etc)
 
 📝Steps to run
 _____________________________________________
