@@ -13,7 +13,7 @@ const Item = require('./models/item');
     {name: 'Appetizers', sortOrder:30},
     {name: 'Desserts', sortOrder: 40},
   ]);
-
+  
   await Item.deleteMany({});
   const items = await Item.create([
     {name: 'Chicken-65', emoji: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/chicken-65-restaurant-style-500x375.jpg', category: categories[2], price: 15.95},

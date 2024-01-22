@@ -58,7 +58,7 @@ function NewOrderPage({ user, setUser }) {
   }
 
   async function handleCheckout() {
-    alert('Email send')
+    // alert('Email send')
     await ordersAPI.checkout();
         var templateparams = {
           email:user.email,
