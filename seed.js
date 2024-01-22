@@ -16,7 +16,7 @@ const Item = require('./models/item');
 
   await Item.deleteMany({});
   const items = await Item.create([
-    {name: 'Chicken-65', emoji: '🍗', category: categories[2], price: 15.95},
+    {name: 'Chicken-65', emoji: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/chicken-65-restaurant-style-500x375.jpg', category: categories[2], price: 15.95},
     {name: 'Veg-Noodles', emoji: '🍜',  category: categories[2], price: 11.95},
     {name: 'Fried Rice', emoji: '🥘', category: categories[1], price: 15.95},
     {name: 'Paneer-65', emoji: '🧈', category: categories[2], price: 12.95},
