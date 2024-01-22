@@ -1,49 +1,87 @@
-import React, {useRef, useEffect, useState} from 'react';
-import emailjs from 'emailjs-com';
+// import React, {useRef, useEffect, useState} from 'react';
+import { Box, Typography } from "@mui/material";
 
 const Register=() =>{
-    const dataref = useRef(null);
-
-    const [data,setData] = useState({ email:''})
-    const {email} = data;
-
-    const changeHandler = e =>{
-     setData({...data,[e.target.name]:e.target.value})}
-
-
-    const submitHandler = e => {
-        e.preventDefault();
-        console.log(dataref.current.value)
-
-          emailjs.sendForm('service_7nqksw6', 'template_v4k4bqs', e.target, 'KqxfdcF4ZT9d7pi7D')
-         .then((result) => {
-              console.log(result.text);
-              e.target.reset();
-              setData(!data);
-
-          }, (error) => {
-              console.log(error.text);
-          });
-          e.target.reset();
-    }
-    useEffect(() => {
-        dataref.current.focus();
-    },[])
-
+   
 
   return (
     <>
+    <Box
+        sx={{
+          my: 4,
+          textAlign: "center",
+          p: 2,
+          "& h4": {
+            fontWeight: "bold",
+            my: 2,
+            fontSize: "2rem",
+            color:'purple',
+            
+          },
+          "& p": {
+            textAlign: "justify",
+          },
+          "@media (max-width:500px)": {
+            mt: 0,
+            "& h4 ": {
+              fontSize: "1.5rem",
+            },
+          },
+        }}
+      ></Box>
     <div className='RegisterMainDiv'>
         
-        <h1>Please Register for Latest Updates</h1>
-        <div className='FormClass'>
-        <form onSubmit={submitHandler}>
-            <input  className='textboxClass' name='email' ref={dataref} type="text" onChange={changeHandler} placeholder='Enter your Email Id'  /><br/>
-            <button className='submit-button-class' ><h4>Submit</h4> </button>           
+    <div><img className='imgClass' src='LogoAlluduKitchen.png' width='100px' alt='NoImg'></img></div>
+        <Typography variant="h4">Welcome To Suneetha's Recipe Hunter</Typography><br/>
+        <p>
+          Hi, I am Suneetha. An ambitious and Technology Driven Software Engineer 
+                who is 
+          Able to code HTML, Javascript, React, CSS from scratch on a daily basis. 
+          Recently completed 450+ hours of hands-on technical instruction in software development, 
+          aiming to leverage my abilities to successfully fill the Software engineer role on the team.
+          </p><p>
+          An individual contributor who adds value through technical expertise and creates a clear strategy and delivers results through teamwork. 
+          </p>
           
-        </form>                    
-        </div>
+        <br /><br/>
+        <p>
+        
+        ●   	Developed object-oriented web applications using Java programming language.
+        ●   	Designed user interfaces for laboratory systems that were intuitive and easy-to-use.
+        ●   	Maintained records of program development activities and results.
+        ●   	Worked successfully with a diverse group of coworkers to accomplish goals and address issues   related to our Institution.
+        ●   	Demonstrated leadership by making improvements to work processes and helping to train others.
+        ●   	Maintained schedule of class assignments to meet deadlines.
+        ●   	Helped maintain positive relations between the students and faculty.
+        ●   	Troubleshooting office equipment, computer hardware and software issues.
+        ●   Processed and prepared business or government forms and expense reports.
+        ●   Tracked students' attendance, materials distribution and assignments submitted in Excel.
+        </p>
+        <br/>
+        <p>
+        "I place great value on interpersonal relationships and a positive work environment at work. 
+        I like being recognized for my hard work and dedication, and offer positive feedback to others 
+        when I notice great work being done.
+         I value mutual respect and validation.
+        </p>
+        <br/>
+        <p>
+        I wish to become a Principal Software Engineer in the coming future. As I have acquired my higher education in technology,
+         I have built a strong base in different levels of programming.
+        </p><br/>
+
+      <p>Yes. My passion towards designing and developing websites makes me a right person to take this rigorous hand-on training and my dedication, smartwork , critical thinking and problem solving analysis skills makes me a right person for this position.
+        My desire is to be a world class Software Developer who renders solutions for various problems, with building applications,
+      being a great people manager and a great mentor to upcoming developers in the technology industry.</p>
+      <br></br>
+      My Ability to code HTML, Javascript, React, CSS make me confident in achieving my goal. 
+      My  Recent experience in  450+ hours of hands-on technical instruction in software development,aiming to leverage my abilities to successfully fill the Software engineer role on the team.
+<br/><br/>
+      My Ambition to become a Software Engineer ,my dedication towards course learning , my confidence in coding with React, HTML, CSS technologies showcase the reality in achieving my Goal.
+
+      
     </div> 
+    <Box/>
     </>
 )}
   
