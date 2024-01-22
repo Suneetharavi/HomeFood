@@ -91,6 +91,8 @@ _____________________________________________________
 * React Router
 * React Hooks 
 * HTML, CSS, JavaScript
+* Express Js, NodeJS
+* MongoDB
 
 ###               Screenshots from the Application
 _______________________________________________________________________
