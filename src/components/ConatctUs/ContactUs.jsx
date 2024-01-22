@@ -4,7 +4,8 @@ import styles from './ContactUs.css'
 function ContactUs() {
   return (
     <div className='contactClass'>
-        <img src='AlluduKitchenFlyer.jpeg' alt='flyer'/>
+        <img src='AlluduKitchenFlyer1.jpeg' alt='flyer'/>
+        <img src ='AlluduKitchenFlyer.jpeg' alt='flyer2'/>
     </div>
   )
 }

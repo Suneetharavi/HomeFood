@@ -171,6 +171,26 @@ button, a.button {
   cursor: pointer;
 }
 
+#exitbutton{
+
+  margin: 1vmin;
+  padding: 1vmin;
+  color:darkgreen;
+  background-color:rgb(239, 153, 41);
+  font-size: 2.5vmin;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  border: .1vmin solid var(--tan-2);
+  /* border-radius: .5vmin; */
+  outline: none;
+  cursor: pointer;
+  font-family:cursive;
+  border-radius: 45%;
+  border: .5vmin solid goldenrod;
+}
+
+
 button.btn-sm {
   font-size: 1.5vmin;
   padding: .6vmin .8vmin;
@@ -213,7 +233,7 @@ object-fit: contain !important;
   background-color: var(--blue);
   color: var(--tan-1);
   font-size: 2.7vmin;
-  border: .6vmin solid var(--tan-2); 
+  border: .6vmin solid goldenrod; 
   
 }
 
