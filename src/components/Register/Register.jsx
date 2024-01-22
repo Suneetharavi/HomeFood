@@ -74,7 +74,7 @@ const Register=() =>{
         My desire is to be a world class Software Developer who renders solutions for various problems, with building applications,
       being a great people manager and a great mentor to upcoming developers in the technology industry.</p>
       <br></br>
-      My Ability to code HTML, Javascript, React, CSS make me confident in achieving my goal. 
+      <p>My Ability to code HTML, Javascript, React, CSS make me confident in achieving my goal. </p>
       My  Recent experience in  450+ hours of hands-on technical instruction in software development,aiming to leverage my abilities to successfully fill the Software engineer role on the team.
 <br/><br/>
       My Ambition to become a Software Engineer ,my dedication towards course learning , my confidence in coding with React, HTML, CSS technologies showcase the reality in achieving my Goal.
