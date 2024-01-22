@@ -29,9 +29,7 @@ function Navbar({ user, setUser }) {
                             {/* <img src=''/><button id='exitbutton' className="btn bg-white text-success mx-1">ContactUs</button> */}
                             <Link  to="/MenuCard" id='exitbutton' className="btn bg-white text-success mx-1" >MenuCard</Link>
                             <Link  to="/AboutUs" id='exitbutton' className="btn bg-white text-success mx-1" >AboutUs</Link>
-                            
-                            
-                            
+                                  
                         </div>  
                     </div>
 

@@ -61,7 +61,9 @@ function NewOrderPage({ user, setUser }) {
     alert('Email send')
     await ordersAPI.checkout();
         var templateparams = {
-          email:user.email
+          email:user.email,
+          total:cart.orderTotal,
+          items:menuItems.category.name
       }
       console.log('Email'+templateparams)
     emailjs.send('service_7nqksw6', 'template_gtjp70j',templateparams, 'KqxfdcF4ZT9d7pi7D')
