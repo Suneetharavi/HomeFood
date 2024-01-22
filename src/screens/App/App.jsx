@@ -24,10 +24,14 @@ export default function App() {
             <Route path="/orders" element={<OrderHistoryPage user={user} setUser={setUser} />} />
             {/* redirect to /orders/new if path in address bar hasn't matched a <Route> above */}
             <Route path="/*" element={<Navigate to="/orders/new" />} />
+            <Route path='orders/new/ContactUs' element={<ContactUs/>}></Route>
           </Routes>
         </>
-        :
-        <AuthPage setUser={setUser} />
+        :<>
+        <Routes>
+        <Route path='orders/new/ContactUs' element={<ContactUs/>}></Route>
+        </Routes>
+        <AuthPage setUser={setUser} /></>
       }
     </main>
   );
