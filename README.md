@@ -1,6 +1,90 @@
-# Getting Started with Create React App
+* [Title](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#suneethas-recipe-hunter-srh)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* [WireFrame](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#wireframe)
+
+* [Technologies](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#technologies-used)
+
+* [Screenshots](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#screenshots-from-the-application)
+
+* [Contact Me](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#contact-me)
+
+
+###          Alludu's Kitchen (Home food Catering)
+___________________________________________________________
+
+Getting Started with ***Alludu's Kitchen***  (A MERN Application built to get orders from users(customers) which helps Alludu's Kitchen to serve the users with good quality food in time.)
+
+In this project you can search the menu and select the quantity and order the food from home.
+
+
+###                    WireFrame
+_____________________________________________
+ 
+ # Home Page:
+
+Built one Home page (with Header and Footer)
+Header have links to Home page,  MenuCard Page, and Register Page .
+
+The Body of Home page have 
+ * The mainpage has a Navbar (Logo. title, links-followus,Menucard,Register) 
+ * Alludu's Kitchen Logo
+ * a link to for the user to login or Register(if you are a new user)
+    by entering the usename and password.
+ * The register form have name.email id, password, confirm password labels to be filled after entering the details click on Register button to register.
+ * if you are login ,Enter the email id, password and Click on Login button which redirects you to orders page.
+
+# Orders page:
+  * Orderspage has a Navbar (Logo. title, links-followus,Menucard,Register)
+  * Categories list in which you can select a category(Breakfast,Lunch,Appetizers,drinks).
+  * The menu items in each category is displayed on clicking the category list item.
+  * By clicking on AddtoCart button the item is added to the orderlist. You can add as many items you need from all the available category list.
+  * You can increase or decrease the quantity of each item by clicking on +,- buttons.
+  * A total amount is calculated by (item.quantity * price) and total of all the list is displayed.
+  * Click on checkout which redirects you to orders page.
+  * In the footer previousorder button which links to your previous order list is  displayed.
+  * In the footer the user emailid and a LogOut button which makes the users to logout from the account and links to the home page.
+  
+
+# MenuCard page:
+
+* On clicking the MenuCard button ,it Directs the user to Alludu's Kitchen Menucard and flyers
+
+# FollowUs Page:
+
+*  On clicking the FollowUs button ,it Directs the user to Alludu's Kitchen Instagram Page.
+
+# Register Page:
+    Register Page has form to fill the Email Id and Click on Register button to Register to Alludu's Kitchen.
+After clocking on Register a Thank you Email is send to Registerd Email id from Alludu's Kitchen.
+and an Email is send to Alludu's Kitchen saying New Registration Reciceved from (the registerd email id).
+
+In the Email Send to the Registered Email.. in the body of the Email it has links to other projects of the SRH.
+
+ # About Page:
+  In the About Page , you can find the details of the Software Engineer who build this Application.
+  and some links to their old projects.
+
+###                 Technologies Used
+_____________________________________________________
+
+* React Js
+* React Router
+* React Hooks (useState, useEffect, useContext, UseRef)
+* HTML, CSS, JavaScript
+
+###               Screenshots from the Application
+_______________________________________________________________________
+
+
+
+
+###                 Contact ME
+ ________________________________________________________
+
+For Further Enquiry or to build a Business Relation , reach me out on
+
+Email: Itsdummyemail@gmail.com
+
 
 ## Available Scripts
 
@@ -11,60 +95,5 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Order the delicious food from Alludu's Kitchen and Enjoy the delicious, yummy and quality HomeFood ..!
+# Eat healthy ,Stay healthy ..!
