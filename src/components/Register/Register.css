@@ -1,0 +1,10 @@
+.RegisterMainDiv{
+    
+    margin-top: 0%;
+    text-align: center;
+    border-radius: 20%;
+    border-color: aqua;
+    border: .2vmin solid green;
+    box-shadow:8px 10px 8px rgb(176, 236, 147), -1em 0 0.4em rgb(240, 163, 163);
+
+}

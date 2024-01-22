@@ -1,9 +1,9 @@
 // import React, {useRef, useEffect, useState} from 'react';
 import { Box, Typography } from "@mui/material";
+import styles from './Register.css'
 
 const Register=() =>{
    
-
   return (
     <>
     <Box
@@ -31,7 +31,7 @@ const Register=() =>{
       ></Box>
     <div className='RegisterMainDiv'>
         
-    <div><img className='imgClass' src='LogoAlluduKitchen.png' width='100px' alt='NoImg'></img></div>
+    <div><img className='AlluduLogo' src='LogoAlluduKitchen.png' width='100px' alt='NoImg'></img></div>
         <Typography variant="h4" color='green'>Welcome To Alludu's Kitchen</Typography><br/>
         <p>
           Hi, I am Suneetha. An ambitious and Technology Driven Software Engineer 
