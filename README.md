@@ -98,7 +98,19 @@ _____________________________________________________
 ###               Screenshots from the Application
 _______________________________________________________________________
 
-![NoScreenshot](![Alt text](<Screenshot 2024-01-22 115013.png>))
+![HOME PAGE](![Alt text](<Screenshot 2024-01-22 115013.png>))
+
+![Home Page]()
+
+![Menu Card Page]()
+
+![FollowUs Page]()
+
+![AboutUs Page]()
+
+![Categories List]()
+
+![OrderHistory]()
 
 
 ###                 Contact ME
