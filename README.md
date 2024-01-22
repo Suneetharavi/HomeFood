@@ -20,7 +20,6 @@ open in Visual studio and install the libraries needed.
 Setup server (Refer here for further setup)
 
 Set up MongoDb on your device and run.😊
-
 _____________________________________________
 
 * [Title](#alludus-kitchen-home-food-catering)
