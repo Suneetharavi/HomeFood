@@ -31,7 +31,7 @@ const Register=() =>{
       ></Box>
     <div className='RegisterMainDiv'>
         
-    <div><img className='AlluduLogo' src='LogoAlluduKitchen.png' width='100px' alt='NoImg'></img></div>
+    <img className='AlluduLogoRegister' src='LogoAlluduKitchen.png' width='100px' alt='NoImg'></img>
         <Typography variant="h4" color='green'>Welcome To Alludu's Kitchen</Typography><br/>
         <p>
           Hi, I am Suneetha. An ambitious and Technology Driven Software Engineer 
