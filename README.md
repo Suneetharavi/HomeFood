@@ -1,3 +1,13 @@
+###         Alludu's Kitchen (Home food Catering)
+___________________________________________________________
+
+Getting Started with ***Alludu's Kitchen***  (A MERN Application built to get orders from users(customers) which helps Alludu's Kitchen to serve the users with good quality food in time.)
+
+In this project you can search the menu and select the quantity and order the food from home.
+
+
+
+
 * [Title](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#suneethas-recipe-hunter-srh)
 
 * [WireFrame](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#wireframe)
@@ -9,12 +19,7 @@
 * [Contact Me](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#contact-me)
 
 
-###          Alludu's Kitchen (Home food Catering)
-___________________________________________________________
 
-Getting Started with ***Alludu's Kitchen***  (A MERN Application built to get orders from users(customers) which helps Alludu's Kitchen to serve the users with good quality food in time.)
-
-In this project you can search the menu and select the quantity and order the food from home.
 
 
 ###                    WireFrame
@@ -64,12 +69,15 @@ In the Email Send to the Registered Email.. in the body of the Email it has link
   In the About Page , you can find the details of the Software Engineer who build this Application.
   and some links to their old projects.
 
-###                 Technologies Used
+###    💻Tech Stack Used
 _____________________________________________________
 
+1. Frontend - React Js
+2. Backend - NodeJS(ExpressJs)
+3. Database - MongoDB
 * React Js
 * React Router
-* React Hooks (useState, useEffect, useContext, UseRef)
+* React Hooks 
 * HTML, CSS, JavaScript
 
 ###               Screenshots from the Application
