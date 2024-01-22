@@ -1,3 +1,22 @@
 .contactClass{
     margin-left: 20%;
+    border-color: brown;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.FleyImg{
+    border-color: brown;
+    border-radius: 2%;
+    border: .2vmin solid green;
+    box-shadow:8px 10px 8px rgb(176, 236, 147), -1em 0 0.4em rgb(240, 163, 163);
+    height:20%
+
+}
+
+.fley1Class{
+    margin-bottom: 15px;
+    
 }
