@@ -32,7 +32,7 @@ const Register=() =>{
     <div className='RegisterMainDiv'>
         
     <div><img className='imgClass' src='LogoAlluduKitchen.png' width='100px' alt='NoImg'></img></div>
-        <Typography variant="h4">Welcome To Suneetha's Recipe Hunter</Typography><br/>
+        <Typography variant="h4" color='green'>Welcome To Alludu's Kitchen</Typography><br/>
         <p>
           Hi, I am Suneetha. An ambitious and Technology Driven Software Engineer 
                 who is 
