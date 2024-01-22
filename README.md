@@ -27,11 +27,11 @@ _____________________________________________
 
 * [WireFrame](#wireframe)
 
-* [Technologies](#)
+* [Technologies](#💻tech-stack-used)
 
-* [Screenshots]
+* [Screenshots](#screenshots-from-the-application)
 
-* [Contact Me]
+* [Contact Me](#contact-me)
 
 
 
