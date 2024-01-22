@@ -5,10 +5,25 @@ Getting Started with ***Alludu's Kitchen***  (A MERN Application built to get or
 
 In this project you can search the menu and select the quantity and order the food from home.
 
+✨ Requirements
+_____________________________________________
+Any Operating System (ie. MacOS X, Linux, Windows)
+Any IDE with Flutter SDK installed (ie. Android Studio, VSCode, IntelliJ, etc)
 
+📝Steps to run
+_____________________________________________
 
+Clone this repository, using git clone 
 
-* [Title](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#suneethas-recipe-hunter-srh)
+open in Visual studio and install the libraries needed.
+
+Setup server (Refer here for further setup)
+
+Set up MongoDb on your device and run.😊
+
+_____________________________________________
+
+* [Title](###WireFrame)
 
 * [WireFrame](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#wireframe)
 
@@ -17,10 +32,6 @@ In this project you can search the menu and select the quantity and order the fo
 * [Screenshots](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#screenshots-from-the-application)
 
 * [Contact Me](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#contact-me)
-
-
-
-
 
 ###                    WireFrame
 _____________________________________________
@@ -60,7 +71,7 @@ The Body of Home page have
 
 # Register Page:
     Register Page has form to fill the Email Id and Click on Register button to Register to Alludu's Kitchen.
-After clocking on Register a Thank you Email is send to Registerd Email id from Alludu's Kitchen.
+After clicking on Register a Thank you Email is send to Registerd Email id from Alludu's Kitchen.
 and an Email is send to Alludu's Kitchen saying New Registration Reciceved from (the registerd email id).
 
 In the Email Send to the Registered Email.. in the body of the Email it has links to other projects of the SRH.
