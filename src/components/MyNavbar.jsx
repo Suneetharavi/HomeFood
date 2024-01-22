@@ -27,7 +27,7 @@ function Navbar({ user, setUser }) {
                         <div className="d-flex">
                             <a href='https://www.instagram.com/alludus_kitchen?igsh=MTVsOXg0azIzMjV1dA=='><button id='exitbutton' className="btn bg-white text-success mx-1">FollowUs</button></a>
                             {/* <img src=''/><button id='exitbutton' className="btn bg-white text-success mx-1">ContactUs</button> */}
-                            <Link  to="/contactUs" id='exitbutton' className="btn bg-white text-success mx-1" >MenuCard</Link>
+                            <Link  to="/MenuCard" id='exitbutton' className="btn bg-white text-success mx-1" >MenuCard</Link>
                             <Link  to="/AboutUs" id='exitbutton' className="btn bg-white text-success mx-1" >AboutUs</Link>
                             
                             
