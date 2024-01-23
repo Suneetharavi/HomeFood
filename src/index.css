@@ -244,3 +244,7 @@ object-fit: contain !important;
   width: 16vmin;
   border: .6vmin solid green; 
 }
+
+.navbar{
+  margin-top: -0.7%;
+}
