@@ -2,6 +2,8 @@
 import { Box, Typography } from "@mui/material";
 import styles from './Register.css'
 import Navbar from '../MyNavbar'
+import Footer from '../Footer/Footer'
+
 const Register = () => {
 
   return (
@@ -60,6 +62,7 @@ const Register = () => {
 
       </div>
       {/* <Box/> */}
+      <Footer/>
     </>
   )
 }

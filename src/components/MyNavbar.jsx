@@ -5,7 +5,7 @@ function Navbar({ user, setUser }) {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-success possition-stickyr">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-success possition-sticky">
                 <div className="container-fluid">
                     <div ><img className='AlluduLogo' src='/LogoAlluduKitchen.png' alt='NoLogo'/></div>
 
