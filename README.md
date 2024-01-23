@@ -1,10 +1,14 @@
-###         Alludu's Kitchen (Home food Catering)
+
+
+
+
+
+###         Alludu's Kitchen (Home food Catering) 
 ___________________________________________________________
 
 Getting Started with ***Alludu's Kitchen***  (A MERN Application built to get orders from users(customers) which helps Alludu's Kitchen to serve the users with good quality food in time.)
 
 In this project you can search the menu and select the quantity and order the food from home.
-
 
 ### ✨ Requirements
 _____________________________________________
@@ -27,6 +31,8 @@ _____________________________________________
 
 * [Technologies](#💻tech-stack-used)
 
+* [Project Planning](#project-planning)
+
 * [WireFrame](#wireframe)
 
 * [Screenshots](#screenshots-from-the-application)
@@ -37,7 +43,7 @@ _____________________________________________
 ###    💻Tech Stack Used
 _____________________________________________________
 
-1. Frontend - React Js
+1. Frontend - React Js 
 2. Backend - ExpressJs
 3. Database - MongoDB
 * React Js
@@ -47,6 +53,12 @@ _____________________________________________________
 * NodeJS, EmailJs
 * JWT, bcrypt
 * MongoDB
+
+### Project Planning
+_____________________________________________
+
+Project Planning organised with in a Trello board: [Trello](https://trello.com/b/JmDazvEb/project-planning)
+ 
 
 ### WireFrame
 _____________________________________________
