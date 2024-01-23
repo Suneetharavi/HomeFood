@@ -89,8 +89,7 @@ The Body of Home page have
 
 # EmailJs:
   * When you click on checkOut button , am Email is send to the user metioning a ThankYou note for ordering and the total price of the order, and a link to our Instagram page and oour other projects links.
-  
-  
+  * Another Email is send to Alludu's Kitchen that, you have recived an order mentioning user EmailId.
 
 # MenuCard page:
 
