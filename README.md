@@ -86,6 +86,10 @@ The Body of Home page have
   * Click on checkout which redirects you to orders page.
   * In the footer previousorder button which links to your previous order list is  displayed.
   * In the footer the user emailid and a LogOut button which makes the users to logout from the account and links to the home page.
+
+# EmailJs:
+  * When you click on checkOut button , am Email is send to the user metioning a ThankYou note for ordering and the total price of the order, and a link to our Instagram page and oour other projects links.
+  
   
 
 # MenuCard page:
