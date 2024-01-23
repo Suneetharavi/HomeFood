@@ -85,7 +85,7 @@ return (
     <main className={styles.NewOrderPage}>
       <aside>
         {/* <Logo/> */}
-        <h3>Categories</h3><hr />
+        <h1>Categories</h1><hr />
         <CategoryList
           categories={categoriesRef.current}
           cart={setCart}
