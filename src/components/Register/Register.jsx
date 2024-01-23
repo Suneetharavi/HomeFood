@@ -1,11 +1,12 @@
 // import React, {useRef, useEffect, useState} from 'react';
 import { Box, Typography } from "@mui/material";
 import styles from './Register.css'
-
+import Navbar from '../MyNavbar'
 const Register = () => {
 
   return (
     <>
+      <Navbar/>
       <div className='RegisterMainDiv'>
 
         <img className='AlluduLogoRegister' src='LogoAlluduKitchen.png' width='100px' alt='NoImg'></img>
