@@ -7,9 +7,9 @@ function Navbar({ user, setUser }) {
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-success ">
                 <div className="container-fluid">
-                    <div ><img className='AlluduLogo' src='/LogoAlluduKitchen.png' alt='NoLogo'/></div>
+                    <div ><Link className="navbar-brand fs-1 " to="/"><img className='AlluduLogo' src='/LogoAlluduKitchen.png' alt='NoLogo'/></Link></div>
 
-                    <div style={{marginLeft:'30%'}}><Link className="navbar-brand fs-1 " to="/"> Alludu's Kitchen 
+                    <div style={{marginLeft:'34%'}}><Link className="navbar-brand fs-1 " to="/"> Alludu's Kitchen 
                     <h5 style={{marginLeft:'13%'}}>Home Food Catering</h5></Link></div>
 
                     {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
