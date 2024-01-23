@@ -5,12 +5,13 @@ Getting Started with ***Alludu's Kitchen***  (A MERN Application built to get or
 
 In this project you can search the menu and select the quantity and order the food from home.
 
-✨ Requirements
+
+### ✨ Requirements
 _____________________________________________
 Any Operating System (ie. MacOS X, Linux, Windows)
 Any IDE (ie. Android Studio, VSCode, IntelliJ, etc)
 
-📝Steps to run
+### 📝Steps to run
 _____________________________________________
 
 Clone this repository, using git clone 
@@ -24,15 +25,28 @@ _____________________________________________
 
 * [Title](#alludus-kitchen-home-food-catering)
 
-* [WireFrame](#wireframe)
-
 * [Technologies](#💻tech-stack-used)
+
+* [WireFrame](#wireframe)
 
 * [Screenshots](#screenshots-from-the-application)
 
 * [Contact Me](#contact-me)
 
 
+###    💻Tech Stack Used
+_____________________________________________________
+
+1. Frontend - React Js
+2. Backend - ExpressJs
+3. Database - MongoDB
+* React Js
+* React Router
+* React Hooks 
+* HTML, CSS, JavaScript
+* NodeJS, EmailJs
+* JWT, bcrypt
+* MongoDB
 
 ### WireFrame
 _____________________________________________
@@ -81,19 +95,6 @@ In the Email Send to the Registered Email.. in the body of the Email it has link
   In the About Page , you can find the details of the Software Engineer who build this Application.
   and some links to their old projects.
 
-###    💻Tech Stack Used
-_____________________________________________________
-
-1. Frontend - React Js
-2. Backend - ExpressJs
-3. Database - MongoDB
-* React Js
-* React Router
-* React Hooks 
-* HTML, CSS, JavaScript
-* NodeJS, EmailJs
-* JWT, bcrypt
-* MongoDB
 
 ###               Screenshots from the Application
 _______________________________________________________________________
